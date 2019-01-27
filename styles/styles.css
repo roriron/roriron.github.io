@@ -4,33 +4,36 @@ body{
 #score {
   color: #ffff;
   position: absolute;
-  top: 5px;
+  top: 100%;
   left:50%;
   font-size: 50px;
   display: inline-block;
   width:100px;
   margin-left:-50px;
+  margin-top: -50px;
   text-align: center;
 }
 #add {
   color: #ffff;
   position: absolute;
-  top: 5px;
+  top: 100%;
   left:0%;
   font-size: 50px;
   display: inline-block;
   width:40px;
   margin-left:10px;
+  margin-top:-50px;
   text-align: center;
 }
 #remove {
   color: #ffff;
   position: absolute;
-  top: 5px;
+  top: 100%;
   left:100%;
   font-size: 50px;
   display: inline-block;
   width:40px;
   margin-left:-50px;
+  margin-top:-50px;
   text-align: center;
 }
