@@ -7,7 +7,7 @@ var precacheFiles = [
       "./js/OrbitControls.js",
       "./js/stats.min.js",
       "./js/dice.js",
-      "./scripts/app.js",
+      "./js/app.js",
       "./js/index.js",
       "index.html"
     ];
