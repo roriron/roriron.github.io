@@ -26,7 +26,7 @@ var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
 var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.01, FAR = 20000;
 camera = new THREE.PerspectiveCamera(VIEW_ANGLE, ASPECT, NEAR, FAR);
 scene.add(camera);
-camera.position.set(-30, 0, 30);
+camera.position.set(-35, 35, 35);
 // RENDERER
 renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
